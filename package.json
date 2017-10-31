@@ -1,0 +1,23 @@
+{
+  "name": "observar-reaccionar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./2/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpoo90/Observar-Reaccionar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpoo90/Observar-Reaccionar/issues"
+  },
+  "homepage": "https://github.com/jpoo90/Observar-Reaccionar#readme",
+  "dependencies": {
+    "rxjs": "^5.5.2"
+  }
+}
