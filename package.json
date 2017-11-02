@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node ./5/index.js",
-    "dev": "webpack-dev-server --env.EJERCICIO=5",
-    "server": "node ./5/server/index.js"
+    "build": "node ./6/index.js",
+    "dev": "webpack-dev-server --env.EJERCICIO=6",
+    "server": "node ./6/server/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/jpoo90/Observar-Reaccionar#readme",
   "dependencies": {
-    "rxjs": "^5.5.2"
+    "rxjs": "^5.5.2",
+    "ws": "^3.2.0"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.17",
