@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node ./4/index.js",
-    "dev": "webpack-dev-server --env.EJERCICIO=4"
+    "build": "node ./5/index.js",
+    "dev": "webpack-dev-server --env.EJERCICIO=5",
+    "server": "node ./5/server/index.js"
   },
   "repository": {
     "type": "git",
