@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node ./6/index.js",
+    "build": "node ./2/index.js",
     "dev": "webpack-dev-server --env.EJERCICIO=6",
     "server": "node ./6/server/index.js"
   },
