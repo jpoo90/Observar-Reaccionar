@@ -1,7 +1,7 @@
 # Eventos del mouse y algunos operadores.
 - `npm install` para instalar RxJs -- Saltar si viene del paso 3
 - Crear los observables en el archivo `index.js`
-- En `package.json` modificar el srcipt `dev` para que la variable EJERCICIO=4
+- En `package.json` modificar el script `dev` para que la variable EJERCICIO=4
 ```javascript
 "scripts": {
     "dev": "webpack-dev-server --env.EJERCICIO=4"
