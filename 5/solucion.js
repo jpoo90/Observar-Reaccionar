@@ -3,7 +3,7 @@ import css from './index.css';
 
 import renderGrupos from './renderGrupos';
 import renderBombos from './renderBombos';
-import generarGrupos from './generarGrupos'
+import generarGrupos from './generarGrupos';
 
 const qs = elm => document.querySelector(elm);
 
@@ -39,7 +39,7 @@ const bombos = [
 const makeRequestUrl = bombo => {
   return fetch(`http://localhost:2018/bombos/${bombo}`)
     .then(res => res.json())
-    .catch(err => console.log);
+    .catch(err => console.log(err));
 };
 
 function generarObservableBombo(bombo, index) {

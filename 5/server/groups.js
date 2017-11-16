@@ -89,11 +89,11 @@ const Colombia = {
   name_es: 'Colombia',
 };
 
-const Italy = {
-  iso: 'IT',
-  flag: '🇮🇹',
-  name: 'Italy',
-  name_es: 'Italia',
+const Sweden = {
+  iso: 'SE',
+  flag: '🇸🇪',
+  name: 'Sweden',
+  name_es: 'Suecia',
 };
 
 const Mexico = {
@@ -194,11 +194,11 @@ const Panama = {
   name_es: 'Panamá',
 };
 
-const IvoryCoast = {
-  iso: 'CI',
-  flag: '🇨🇮',
-  name: 'Ivory Coast',
-  name_es: 'Costa de Marfil',
+const Morocco = {
+  iso: 'MA',
+  flag: '🇲🇦',
+  name: 'Morocco',
+  name_es: 'Marruecos',
 };
 
 const SouthKorea = {
@@ -239,16 +239,16 @@ const bag2 = [
   Switzerland,
   Colombia,
   England,
-  Italy,
   Mexico,
   Uruguay,
+  Croatia,
 ];
 
 const bag3 = [
-  Croatia,
   Denmark,
   Iceland,
   CostaRica,
+  Sweden,
   Tunisia,
   Egypt,
   Senegal,
@@ -260,7 +260,7 @@ const bag4 = [
   Nigeria,
   Japan,
   Panama,
-  IvoryCoast,
+  Morocco,
   SouthKorea,
   SaudiArabia,
   Australia,
