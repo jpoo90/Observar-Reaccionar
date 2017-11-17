@@ -29,8 +29,8 @@
 
 ## Vocabulario.
   - Stream = Observable.
-  - Observer (onNext, onError, onComplete)
-  - Cancelation > Tears down observer and resources.
+  - Observador siempre tiene (onNext, onError, onComplete)
+  - Cancelar: Eliminar la subscripción, y destruir los recursos asignados al observable.
 
 # Estructura de un observable.
   - Es perezoso, no hace nada hasta que no tiene una subscripción.
